@@ -1,5 +1,5 @@
 // findPythagoreanTriples(positive integer to start from, max integer to consider, Boolean:whether only primitive triples should be considered, exponent for equation (possible values:2,3));
-findPythagoreanTriples(1, 10000, true, 3);
+findPythagoreanTriples(1, 10000, true, 2);
 function findPythagoreanTriples(start, chunk_size, checkForPrimitive, exponent) {
     if (start <= 0 || chunk_size < start) throw "Invalid range!";
     if (exponent == 3) console.log("Finding integer solutions for a^3 + b^3 = c^3...bit pointless after they proved Fermat's Last Theorem, isn't it?")
